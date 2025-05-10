@@ -11,4 +11,10 @@ d = True        # boolean
 e = None        # none type variable
 
 
+# Typecast
 print(type(a))      # print data type of variable
+
+t = "5.18"      # Str for now
+
+dt = float(t)
+print(type(dt))
