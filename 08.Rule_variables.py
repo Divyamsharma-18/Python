@@ -6,9 +6,9 @@ a = 518
 
 dt = 29
 
-td = 4
+_td = 4
 
-td518 = "Divit"
+_td518 = "Divit"
 
 dt_4 = "True"
 
@@ -16,6 +16,9 @@ dt_29 = 1
 
 
 # Now what throws error - 
+
 @abcd = 2       # no special characters 
 
 1234 = 1234     # never starts with number
+
+a cat = "a car"     #no white space
