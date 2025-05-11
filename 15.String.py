@@ -23,3 +23,11 @@ print(name[1:4])        # arr cause yk why
 print(name[1:])     # ivit cause starts from 1 index and goes till the last
 
 print(name[:4])     # Divi cause takes 0 to 3 and yk from 4 it excludes everything 
+
+
+
+# Skip slicing
+
+number = "0123456789"
+
+print(number[1:8:2])       #starts from index value 1, exclude value of index 8, and add 2 to 1 and gives output - 1357
